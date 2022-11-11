@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Paquete de iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="navbar grid--container">
+
+            <a class="navbar_logo" href="#">
+                <i class='bx bxs-user-circle' >
+                </i>
+            Camila Morales
+            </a>
+
+            <div class="navbar_menu">
+                <i class="bx bx-x btn_close navbar_icon"></i>
+
+                <ul class="navbar_list">
+
+                    <li class="navbar_item">
+                        <a class="navbar_link" href="#home">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="navbar_item">
+                        <a class="navbar_link" href="#about">
+                            Acerca De Mi
+                        </a>
+                    </li>
+                    <li class="navbar_item">
+                        <a class="navbar_link" href="#projects">
+                            Proyectos
+                        </a>
+                    </li>
+                    <li class="navbar_item">
+                        <a class="navbar_link" href="#contact">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <i class="bx bx-menu navbar_icon btn_open"></i>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="home section">
+
+            <div class="home_container grid--container">
+
+                <div class="home_image_border">
+                    <div class="home_image">
+                        <span></span>
+                        <img src="assets/img/portfolio_photo.png" alt="mobile photo">
+                    </div>  
+                </div>
+
+                <ul class="home_social">
+                    <li class="home_social_item">
+                        <a class="home_social_link" href="https://www.linkedin.com/in/camila-andrea-morales-ortega-9a71aa212/" target="_blank">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                    </li>
+                    <li class="home_social_item">
+                        <a class="home_social_link" href="https://github.com/camilamo9719" target="_blank">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </li>
+                    <li class="home_social_item">
+                        <a class="home_social_link" href="#">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="home_info">
+                    <h1 class="home_title">Hey, soy Camila <br> Morales </h1>
+                    <br>
+                    <p class="home_description">Soy desarrolladora web, apasionada por la tecnología y la programación</p>
+                </div>
+                
+                <div class="home_buttons">
+                    <button class="btn btn_primary" type="button">Descarga CV</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <h2 class="section_title">Acerca de Mi</h2>
+            <div class="about_container grid--container">
+                <p class="about_description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque earum alias ullam facere eum porro dignissimos. Qui ad dolores reprehenderit temporibus ex veritatis quibusdam! Velit doloribus qui consequatur saepe voluptate!
+                </p>
+
+                <div class="about_skills grid--container">
+                    <div class="about_cards_list">
+                        <!-- Card 1 -->
+                        <div class="about_card">
+                            <i class='bx bxl-javascript about_icon' ></i>
+                            <h3 class="about_card_title">JavaScript</h3>
+
+                            <p class="about_card_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="about_card">
+                            <i class='bx bxl-html5 about_icon'></i>
+                            <h3 class="about_card_title">HTML5</h3>
+                            <p class="about_card_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="about_card">
+                            <i class='bx bxl-css3 about_icon' ></i>
+                            <h3 class="about_card_title">CSS3</h3>
+                            <p class="about_card_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+
+                    <div class="about_tags">
+                        <h3 class="about_tags_title">Habilidades</h3>
+                        <div class="about_tags_container">
+                            <span class="about_tag">Responsable</span>
+                            <span class="about_tag">Trabajo en Equipo</span>
+                            <span class="about_tag">Creativa</span>
+                            <span class="about_tag">Proactiva</span>
+                            <span class="about_tag">Autodidacta</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            
+            <h2 class="section_title">Proyectos</h2>
+
+            <div class="projects_container grid--container">
+                <div class="projects_project">
+                    <div class="projects_inner">
+                        <div class="projects_image">
+                            <img src="assets/img/ejemplo_1.png" alt="project 1">
+                        </div>
+
+                        <div class="projects_info">
+                            <h3 class="projects_name">Proyecto 1</h3>
+                            <p class="projects_description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            </p>
+
+                            <div class="projects_buttons">
+                                <button class="projects_button" type="button">Ver Demo</button>
+                                <button class="projects_button" type="button">Ver Código</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects_project">
+                    <div class="projects_inner">
+                        <div class="projects_image">
+                            <img src="assets/img/ejemplo_2.png" alt="project 2">
+                        </div>
+
+                        <div class="projects_info">
+                            <h3 class="projects_name">Proyecto 2</h3>
+                            <p class="projects_description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            </p>
+
+                            <div class="projects_buttons">
+                                <button class="projects_button" type="button">Ver Demo</button>
+                                <button class="projects_button" type="button">Ver Código</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects_project">
+                    <div class="projects_inner">
+                        <div class="projects_image">
+                            <img src="assets/img/ejemplo_3.png" alt="project 3">
+                        </div>
+
+                        <div class="projects_info">
+                            <h3 class="projects_name">Proyecto 3</h3>
+                            <p class="projects_description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            </p>
+
+                            <div class="projects_buttons">
+                                <button class="projects_button" type="button">Ver Demo</button>
+                                <button class="projects_button" type="button">Ver Código</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects_project">
+                    <div class="projects_inner">
+                        <div class="projects_image">
+                            <img src="assets/img/ejemplo_4.png" alt="project 4">
+                        </div>
+
+                        <div class="projects_info">
+                            <h3 class="projects_name">Proyecto 4</h3>
+                            <p class="projects_description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            </p>
+
+                            <div class="projects_buttons">
+                                <button class="projects_button" type="button">Ver Demo</button>
+                                <button class="projects_button" type="button">Ver Código</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <h2 class="contact_title">Contáctame</h2>
+
+            <div class="contact_container grid--container">
+                <div class="contact_info">
+
+                    <address class="contact_info_data">
+                        
+                        <div class="contact_info_item">
+                            <i class='bx bx-phone phone'></i>
+                            <span class="contact_info_number">+00 123 456 7890</span>
+                        </div>
+
+                        <div class="contact_info_item">
+                            <i class='bx bx-envelope email' ></i>
+                            <span class="contact_info_mail">
+                                <a href="mailto:test@correo.com">
+                                    Support Email
+                                </a>
+                            </span>
+                        </div>
+
+                        <div class="contact_info_item">
+                            <i class='bx bx-map location'></i>
+                            <span class="contact_info_map">Bogotá, Colombia </span>
+                        </div>
+
+                    </address>
+                </div>
+            </div>
+
+            <div class="contact_form">
+                <h3 class="contact_form_title">Envíame un mensaje</h3>
+                <form id="form" class="contact_form_container">
+
+                    <div class="contact_form_group">
+                        <label for="name" class="contact_form_label">Nombre</label>
+                        <input type="text" id="name" class="contact_form_input">
+                    </div>
+
+                    <div class="contact_form_group">
+                        <label for="email" class="contact_form_label">Email</label>
+                        <input type="email" id="email" class="contact_form_input">
+                    </div>
+
+                    <div class="contact_form_group">
+                        <label for="message" class="contact_form_label">Mensaje</label>
+                        <textarea class="contact_form_input" id="message" cols="20" rows="5"></textarea>
+                    </div>
+                        <button type="submit" class="btn contact_form_button">Enviar</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer_section">
+        <div class="footer_container grid--container">
+            <div class="footer_info">
+                <h3 class="footer_title">Camila Morales</h3>
+                <p class="footer_description">Soy desarrolladora web, apasionada por la tecnología y la programación</p>
+            </div>
+
+            <div class="footer_social">
+                <h3>Redes Sociales</h3>
+
+                <ul class="footer_social_list">
+                    <li class="footer_social_item">
+                        <a class="footer_social_link" href="#">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                    </li>
+                    <li class="footer_social_item">
+                        <a class="footer_social_link" href="#">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </li>
+                    <li class="footer_social_item">
+                        <a class="footer_social_link" href="#">
+                            <i class='bx bxl-netlify'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer_copy">
+            &copy; 2022, Todos los derechos reservados.
+        </p>
+        <br>
+    </footer>
+
+    <!-- Media Query -->
+    <script>
+        const btnMenu = document.querySelector('.btn_open')
+        const btnClose = document.querySelector('.btn_close')
+        const Menu = document.querySelector('.navbar_menu')
+
+        btnMenu.onclick = function () {
+            Menu.classList.add('show_menu')
+        }
+
+        btnClose.onclick = function () {
+            Menu.classList.remove('show_menu')
+        }
+    </script>
+
+    <a href="#">Ir arriba</a>
+</body>
+</html>
